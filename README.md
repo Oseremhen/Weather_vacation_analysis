@@ -32,3 +32,4 @@ Part 2: VacationPy.ipynb:
 In this deliverable, I used used Jupyter notebooks, the geoViews Python library, and the Geoapify API to plan future vacations. I employed my Python skills to create map visualizations using Geoapify API and geoViews Python library. I create a map that displays a point for every city in the city_data_df DataFrame made the humidity in each city the size of the points, narrowed down the city_data_df DataFrame to find your ideal weather condition (i.e. zero cloudiness and a max temperature lower than 28 degrees but higher than 20).
 
 I created a new DataFrame called hotel_df to store the city, country, coordinates, and humidity and for each city, I used the Geoapify API to find the first hotel located within 10,000 meters of my coordinates, then I added the hotel name and the country as additional information in the hover message for each city on the map.
+
